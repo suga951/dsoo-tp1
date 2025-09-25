@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|c:\\users\\betty y tobi\\source\\repos\\biblioteca\\biblioteca\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|c:\\users\\betty y tobi\\source\\repos\\biblioteca\\biblioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|c:\\users\\betty y tobi\\source\\repos\\biblioteca\\biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C896490E-7B21-4D8A-BA15-D6EA4D96C22D}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Libro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Libro.cs",
+              "ToolTip": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Libro.cs*",
+              "RelativeToolTip": "Biblioteca\\Libro.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T03:37:07.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.cs*",
+              "RelativeToolTip": "Biblioteca\\Biblioteca.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T03:35:53.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Test.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Test.cs",
+              "ToolTip": "C:\\Users\\Betty y Tobi\\source\\repos\\Biblioteca\\Biblioteca\\Test.cs*",
+              "RelativeToolTip": "Biblioteca\\Test.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T03:29:02.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
