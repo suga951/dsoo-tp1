@@ -31,14 +31,27 @@ namespace Biblioteca
         }
         public string prestarLibro(string titulo, string dni)
         {
-            if (dni == null)
+            Lector lectorSolicitante = lectores.FirstOrDefault(l => l.Dni == dni);
+            Libro libroSolicitado = libros.FirstOrDefault(l => l.titulo == titulo);
+
+            if (lectorSolicitante == null)
             {
                 Console.WriteLine("LECTOR INEXISTENTE");
             }
-            if (titulo == null)
+            if (lectorSolicitante.librosPrestados.Count >= 3)
+            {
+                Console.WriteLine("TOPE DE PRESTAMO ALCANZADO");
+            }
+
+
+            if (libroSolicitado == null)
             {
                 Console.WriteLine("LIBRO INEXISTENTE");
             }
+
+            lectorSolicitante.librosPrestados.Add(libroSolicitado);
+            libros.Remove(libroSolicitado);
+            return "PRESTAMO EXITOSO";
         }
     }
 }
