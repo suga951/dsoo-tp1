@@ -6,9 +6,9 @@ namespace Biblioteca
 {
     internal class Libro
     {
-        private string titulo { get; }
-        private string autor { get; }
-        private string editorial { get; }
+        public string titulo { get; }
+        public string autor { get; }
+        public string editorial { get; }
 
         public Libro(string titulo, string autor, string editorial)
         {
