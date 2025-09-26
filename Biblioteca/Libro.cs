@@ -6,20 +6,15 @@ namespace Biblioteca
 {
     internal class Libro
     {
-        private string titulo;
-        private string autor;
-        private string editorial;
+        private string titulo { get; }
+        private string autor { get; }
+        private string editorial { get; }
 
         public Libro(string titulo, string autor, string editorial)
         {
             this.titulo = titulo;
             this.autor = autor;
             this.editorial = editorial;
-        }
-
-        public string getTitulo()
-        {
-            return titulo;
         }
 
         public override string ToString()
