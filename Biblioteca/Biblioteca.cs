@@ -20,7 +20,7 @@ namespace Biblioteca
 
             if (lectores.Any(l => l.Dni == dni))
             {
-                Console.WriteLine("Ya existe un lector con este DNI.")
+                Console.WriteLine("Ya existe un lector con este DNI.");
                 return false;
             }
 
