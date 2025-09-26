@@ -15,6 +15,50 @@ namespace Biblioteca
             this.lectores = new List<Lector>();
         }
 
+        public bool agregarLibro(string titulo, string autor, string editorial)
+        {
+            bool resultado = false;
+            Libro libro;
+            libro = buscarLibro(titulo);
+            if (libro == null)
+            {
+                libro = new Libro(titulo, autor, editorial);
+                libros.Add(libro);
+                resultado = true;
+            }
+            return resultado;
+        }
+
+        public void listarLibros()
+        {
+            foreach (var libro in libros)
+                Console.WriteLine(libro);
+        }
+
+        public bool eliminarLibro(string titulo)
+        {
+            bool resultado = false;
+            Libro libro;
+            libro = buscarLibro(titulo);
+            if (libro != null)
+            {
+                libros.Remove(libro);
+                resultado = true;
+            }
+            return resultado;
+        }
+
+        public Libro buscarLibro(string titulo) {
+            for (int i = 0; i < libros.Count; i++)
+            {
+                if (libros[i].titulo == titulo)
+                {
+                    return libros[i];
+                }
+            }
+            return null;
+        }
+
         public bool altaLector(string dni, string nombre)
         {
 
