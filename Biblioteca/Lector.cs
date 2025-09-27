@@ -13,10 +13,10 @@ namespace Biblioteca
         }
         public List<Libro> librosPrestados { get; set; }
 
-        public Lector(string nombre, string dni)
+        public Lector(string dni, string nombre)
         {
-            Nombre = nombre;
             Dni = dni;
+            Nombre = nombre;            
             librosPrestados = new List<Libro>();
         }
     }
