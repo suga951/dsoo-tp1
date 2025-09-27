@@ -75,19 +75,20 @@ namespace Biblioteca
         }
         public string prestarLibro(string titulo, string dni)
         {
+            
             Lector lectorSolicitante = lectores.FirstOrDefault(l => l.Dni == dni);
-            Libro libroSolicitado = libros.FirstOrDefault(l => l.titulo == titulo);
-
+            
             if (lectorSolicitante == null)
             {
                 Console.WriteLine("LECTOR INEXISTENTE");
             }
-            if (lectorSolicitante.librosPrestados.Count >= 3)
+            if (lectorSolicitante.librosPrestados.Count >= Lector.TOPE_PRESTAMOS)
             {
                 Console.WriteLine("TOPE DE PRESTAMO ALCANZADO");
             }
 
-
+            Libro libroSolicitado = libros.FirstOrDefault(l => l.titulo == titulo);
+            
             if (libroSolicitado == null)
             {
                 Console.WriteLine("LIBRO INEXISTENTE");
@@ -99,3 +100,4 @@ namespace Biblioteca
         }
     }
 }
+
