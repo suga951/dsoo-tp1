@@ -54,7 +54,7 @@ namespace Biblioteca
             return libros.FirstOrDefault(l => l.titulo == titulo);
         }
 
-        public bool altaLector(string dni, string nombre)
+        public string altaLector(string dni, string nombre)
         {
 
             if (lectores.Any(l => l.Dni == dni))
@@ -95,6 +95,7 @@ namespace Biblioteca
         }
     }
 }
+
 
 
 
