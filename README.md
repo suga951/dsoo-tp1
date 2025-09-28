@@ -14,3 +14,4 @@ Sistema de gestión para Biblioteca. Desarollado en C#.
 - Agustin Lopez
 - Gustavo Ferreira
 - David Ramon Thomen
+- Pablo Escobar
