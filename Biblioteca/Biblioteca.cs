@@ -6,6 +6,7 @@ namespace Biblioteca
 {
     internal class Biblioteca
     {
+        public const int TOPE_PRESTAMOS = 3;
         private List<Libro> libros;
         private List<Lector> lectores;
 
@@ -49,14 +50,8 @@ namespace Biblioteca
         }
 
         public Libro buscarLibro(string titulo) {
-            for (int i = 0; i < libros.Count; i++)
-            {
-                if (libros[i].titulo == titulo)
-                {
-                    return libros[i];
-                }
-            }
-            return null;
+
+            return libros.FirstOrDefault(l => l.titulo == titulo);
         }
 
         public bool altaLector(string dni, string nombre)
@@ -82,7 +77,7 @@ namespace Biblioteca
             {
                 Console.WriteLine("LECTOR INEXISTENTE");
             }
-            if (lectorSolicitante.librosPrestados.Count >= Lector.TOPE_PRESTAMOS)
+            if (lectorSolicitante.librosPrestados.Count == TOPE_PRESTAMOS)
             {
                 Console.WriteLine("TOPE DE PRESTAMO ALCANZADO");
             }

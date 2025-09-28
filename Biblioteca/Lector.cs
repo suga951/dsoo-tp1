@@ -5,7 +5,6 @@ namespace Biblioteca
 {
     internal class Lector
     {
-        public const int TOPE_PRESTAMOS = 3;
         public string Nombre { get; set; }
         public string Dni
         {
