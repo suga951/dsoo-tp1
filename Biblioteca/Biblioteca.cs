@@ -59,15 +59,14 @@ namespace Biblioteca
 
             if (lectores.Any(l => l.Dni == dni))
             {
-                Console.WriteLine("Ya existe un lector con este DNI.");
-                return false;
+                return Ya existe un lector con este DNI.;
             }
 
             Lector nuevoLector = new Lector(dni, nombre);
             lectores.Add(nuevoLector);
-            Console.WriteLine($"Lector {nombre} agregado exitosamente.");
-            return true;
+            return $"Lector {nombre} agregado exitosamente.;
         }
+        
         public string prestarLibro(string titulo, string dni)
         {
             
@@ -96,4 +95,5 @@ namespace Biblioteca
         }
     }
 }
+
 
