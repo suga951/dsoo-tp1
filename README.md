@@ -4,10 +4,10 @@ Sistema de gestión para Biblioteca. Desarollado en C#.
 
 ## Estructura
 
-Biblioteca.cs // Clase principal que gestiona la biblioteca
-Libro.cs // Clase que representa un libro
-Lector.cs // Clase que representa un lector
-Test.cs // Clase de pruebas para validar el funcionamiento
+- Biblioteca.cs // Clase principal que gestiona la biblioteca
+- Libro.cs // Clase que representa un libro
+- Lector.cs // Clase que representa un lector
+- Test.cs // Clase de pruebas para validar el funcionamiento
 
 ## Autores
 
