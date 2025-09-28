@@ -59,12 +59,12 @@ namespace Biblioteca
 
             if (lectores.Any(l => l.Dni == dni))
             {
-                return Ya existe un lector con este DNI.;
+                return "Ya existe un lector con este DNI.";
             }
 
             Lector nuevoLector = new Lector(dni, nombre);
             lectores.Add(nuevoLector);
-            return $"Lector {nombre} agregado exitosamente.;
+            return $"Lector {nombre} agregado exitosamente.";
         }
         
         public string prestarLibro(string titulo, string dni)
@@ -95,5 +95,6 @@ namespace Biblioteca
         }
     }
 }
+
 
 
