@@ -77,16 +77,17 @@ namespace Biblioteca
             {
                 return "LECTOR INEXISTENTE";
             }
-            if (lectorSolicitante.librosPrestados.Count == TOPE_PRESTAMOS)
-            {
-                return "TOPE DE PRESTAMO ALCANZADO";
-            }
-
+            
             Libro libroSolicitado = libros.FirstOrDefault(l => l.titulo == titulo);
             
             if (libroSolicitado == null)
             {
                 return "LIBRO INEXISTENTE";
+            }
+
+            if (lectorSolicitante.librosPrestados.Count == TOPE_PRESTAMOS)
+            {
+                return "TOPE DE PRESTAMO ALCANZADO";
             }
 
             lectorSolicitante.librosPrestados.Add(libroSolicitado);
